@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic HTML Website</title>
@@ -16,45 +17,49 @@
         
         <nav>
            <ul>
-            <li> <a href="index.html">Homepage</a></li>
-            <li> <a href="project.html">Project</a></li>
-            <li> <a href="article.html">Article</a></li>
-            <li> <a href="contact.html">Contact</a></li>
+            <li> <a class="underline" href="index.html">Homepage</a></li>
+            <li> <a class="underline" href="project.html">Project</a></li>
+            <li> <a class="underline" href="article.html">Article</a></li>
+            <li> <a class="underline" href="contact.html">Contact</a></li>
            </ul>
         </nav>
-    </header>
+</header>
    
     <main>
         <section class="intro">
-            <h1>Frontend Developer</h1>
+            <h1 class="fd">Frontend Developer</h1>
             <p>Just HTML</p>
         </section>
 
-        <section class="project">
-            <h3>Projects</h3>
-            <ul>
-                <li>HTML Only Portfolio</li>
-                <li>Calculator</li>
-                <li>Quiz App</li>
-                <li>Countdown Timer</li>
-                <li>Product upcoming page</li>
-            </ul>
-        </section>
-        <section class="experience">
-            <h3>Work Experience</h3>
-            <p>Solved all frontend projects<br><a href="https://github.com/srilayaa5?tab=repositories">Visit my profile</a></p>
-        </section>
+        <section class="project-experience">
+    <div class="project">
+        <h3 class="pr">Projects</h3>
+        <ul>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product upcoming page</li>
+        </ul>
+    </div>
+
+    <div class="experience">
+        <h3 class="ex">Work Experience</h3>
+        <p>Solved all frontend projects<br><a class="underline" href="https://github.com/srilayaa5?tab=repositories">Visit my profile</a></p>
+    </div>
+</section>
+
 
         <section class="opensource">
-            <h4>opensource work</h4>
-            <p>Contributed to 50 opensource projects.Make my own projects with 200 GitHub Stars<a href="https://github.com/srilayaa5?tab=repositories">Visit my GitHub profile</a></p>
+            <h3 class="ow">Opensource work</h4>
+            <p>Contributed to 50 opensource projects. Make my own projects with 200 GitHub Stars <br><a class="underline" href="https://github.com/srilayaa5?tab=repositories">Visit my GitHub profile</a></p>
         </section>
 
         <section class="education">
-            <h3>Education</h3>
-            <p>Graduated with 3.76 out of 4 CGPA. Organised 30 sessions.</p>
-            <p>Courses that I took:</p>
-            <ul style="list-style-type:circle;">
+            <h3 class="ed">Education</h3>
+            <p>Graduated with <b>3.76</b> out of 4 CGPA. Organised 30 sessions.</p>
+            <p class="course"><u>Courses that I took:</u></p>
+            <ul style="list-style-type:none;">
                 <li>Object Oriented Programming</li>
                 <li>Data Structure and Algorithms</li>
                 <li>Wed Engineering</li>
@@ -67,25 +72,25 @@
         </section>
 
         <section class="review">
-            <h3>Reviews from myy teacher</h3>
+            <h3 class="rw">Reviews from my teacher</h3>
             <blockquote>
-                <p>John doe was a brilliant student, always stood out in his assigments</p>
-                <footer>Jane Doe, Assistant Professor</footer>
+                <p class="box">"John doe was a brilliant student, always stood out in his assigments"</p>
+                <footer class="foot"><i>Jane Doe, Assistant Professor</i></footer>
             </blockquote>
 
             <blockquote>
-                <p>John doe was a brilliant student, always stood out in his assigments</p>
-                <footer>Jane Doe, Assistant Professor</footer>
+                <p class="box">"John doe was a brilliant student, always stood out in his assigments"</p>
+                <footer class="foot"><i>Jane Doe, Assistant Professor</i></footer>
             </blockquote>
 
             <blockquote>
-                <p>John doe was a brilliant student, always stood out in his assigments</p>
-                <footer>Jane Doe, Assistant Professor</footer>
+                <p class="box">"John doe was a brilliant student, always stood out in his assigments"</p>
+                <footer class="foot"><i>Jane Doe, Assistant Professor</i></footer>
             </blockquote>            
         </section>
     </main>
 
-    <footer>
+    <footer class="f">
         <p>&copy; all rights reserved</p>
     </footer>
     

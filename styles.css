@@ -1,0 +1,182 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: double black;
+  background-color: #c9e4d4;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo img {
+  border-radius: 8px;
+}
+
+.intro{
+    border-bottom: double black;
+    text-align: center;
+    font-family:Georgia;
+    font-size:larger;
+background:linear-gradient( #098171,rgb(12, 4, 95));
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.fd{
+    background:linear-gradient( #098171,rgb(12, 4, 95));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:2em;
+}
+
+body{
+    border:5px solid black;
+    background:#c6def1;
+  
+
+    
+}
+
+a{
+    color:#098171;
+}
+
+a:hover{
+    color:red;
+    
+}
+
+.project-experience {
+    display: flex;
+    justify-content: center; /* Optional: centers the whole section horizontally */
+    gap: 40px; /* Adds space between project and experience */
+    margin: 20px 0;
+    border-bottom: double black;
+    padding:20px;
+    font-family:Georgia;
+    color:rgb(12, 4, 95);
+}
+
+.project, .experience {
+    width: 300px; 
+}
+
+.project {
+    border-right: double black;
+    padding-right: 20px;
+    
+}
+
+.experience {
+    padding-left: 20px;
+}
+
+.pr{
+    padding-left:20%;
+    background:linear-gradient( #098171,rgb(12, 4, 95));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.ex{
+    background:linear-gradient( #098171,rgb(12, 4, 95));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.opensource{
+    font-family:Georgia;
+    color:rgb(12, 4, 95);
+    border-bottom:double black;
+    text-align:center;
+
+}
+
+.ow{
+    background:linear-gradient( #098171,rgb(12, 4, 95));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+}
+
+.education{
+    font-family:Georgia;
+    justify-content: center;
+    text-align:center;
+    color:rgb(12, 4, 95);
+    border-bottom: double black;
+    
+}
+
+.course
+{
+    padding-left:2%;
+}
+
+.ed{
+       background:linear-gradient( #098171,rgb(12, 4, 95));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+   
+}
+
+.review{
+   font-family:Georgia;
+    justify-content: center;
+    text-align:center;
+    color:rgb(12, 4, 95);
+    
+}
+
+.foot{
+    font-size:14px;
+}
+
+.rw{
+    background:linear-gradient( #098171,rgb(12, 4, 95));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;    
+}
+
+.box{
+    border: 2px solid #098171;
+    border-radius:12px;
+}
+
+.f{
+    padding-top: 5%;
+    text-align: center;
+    color:#098171;
+    font-style: italic;
+}
+
+/*projects page*/
+
+.projects{
+    text-align: center;
+    font-family: Georgia;
+    color:rgb(12, 4, 95);
+
+}
+
+.ps{
+    text-align:center;
+           background:linear-gradient( #098171,rgb(12, 4, 95));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left:2%;
+
+}
